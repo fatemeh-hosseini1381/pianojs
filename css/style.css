@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+}
+.maine>h1{
+ color: white;
+ font-size: 40px;
+}
+.maine>.piano{
+    margin: 50px auto;
+    background-color: rgb(81, 81, 81);
+    padding: 8px;
+    border-radius: 5px;
+}
+.insid-piano{
+    margin-top: 38px;
+    border-radius: 2px;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    padding: 5px;
+   
+}
+.key {
+  list-style: none;
+  color: aliceblue;
+  cursor: pointer;
+  display: flex;
+
+}
+
+.key.white {
+    width: 50px;
+    height: 150px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: relative;
+    background: white;
+
+}
+.key.black {
+    width:22px;
+    height: 100px;
+    margin: 0 -10px 0 -7px;
+    background: rgb(17, 15, 15);
+    z-index: 2;
+}
+li>span{
+   text-align: center;
+   width: 100%;
+   font-size: 15px;
+   color: black;
+   margin-top: 117px;
+
+}
+.letter{
+    display: flex;
+    flex-flow: column;
+    background-color: rgb(168, 167, 219);
+
+}
+.letter>p{
+    font-weight: bolder;
+    font-weight: 20px;
+    text-align: center;
+    color: azure;
+}
